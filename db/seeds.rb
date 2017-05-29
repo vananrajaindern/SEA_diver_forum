@@ -9,7 +9,7 @@ admin = User.create!(
 messageboard = Thredded::Messageboard.create!(
     name: 'General',
     slug: 'general',
-    description: 'A board is not a board without some posts'
+    description: 'An online community for divers :)'
 )
 
 Thredded::TopicForm.new(
